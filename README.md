@@ -81,6 +81,8 @@ curl --location 'http://127.0.0.1:8000/ask-question?user_question=What%20is%20Lo
 
 Code to upload SQL data to vector store is already present in the commented code in app.py file. However, as of now, when both pdfs and sql data is uploaded to vector store, questions are answered on neither pdfs nor sql data. Thus, that code is commented to show that the implementation is almost complete. It will be included as the bug is resolved.
 
+Initially, Streamlit was being used to test out the functioning of the code and the question answering chain, also serving as the frontend of the website. Later on, it was replaced with Python FastAPI. However, the code for Streamlit frontend is present commented out in app.py if someone wants to check out.
+
 Contextual conversation is not included in this version. It will be included in future updates.
 
 ## Contact
