@@ -14,7 +14,7 @@ Backend application for a chatbot powered by Google's Gemini Pro AI model. It ca
 
 ## Installation
 
-To install the project on your local machine, follow these steps:
+To install the project on your local machine, follow these steps (make sure python version>3.10 is installed on your machine, otherwise you may run into version compatibility issues):
 1. Clone the repository on your machine using the following command:
 ```bash
 git clone https://github.com/sshikhar09/chatbot-backend.git
